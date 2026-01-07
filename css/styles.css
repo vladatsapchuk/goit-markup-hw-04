@@ -230,6 +230,40 @@ a {
 .our-team-title {
   margin-bottom: 72px;
 }
+.icons-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px; 
+  list-style: none;
+  
+}
+
+.icon-facebook,
+.icon-linkedin,
+.icon-twitter,
+.icon-instagram {
+  fill:#F4F4FD;
+}
+
+.team-soc-link {
+  background-color: #4D5AE5; /* Синій колір фону */
+  border-radius: 50%;     /* Робимо коло */
+  width: 40px;  /* <--- ОБОВ'ЯЗКОВО додайте це */
+  height: 40px;
+  /* МАГІЯ: Центруємо іконку всередині круга */
+  display: flex; 
+  align-items: center;    /* Центр по вертикалі */
+  justify-content: center; /* Центр по горизонталі */
+
+  /* Додатково для плавності при наведенні */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #404BBF; /* Темніший синій */
+}
 
 .our-team-list {
   display: flex;
@@ -347,4 +381,7 @@ a {
   display: inline-block;
    margin-bottom: 16px; 
 }
- 
+ .icons-list {
+  display:flex;
+  gap:24px;
+ }
