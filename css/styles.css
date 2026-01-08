@@ -262,14 +262,16 @@ a {
 .icon-twitter,
 .icon-instagram {
   fill:#F4F4FD;
+  width: 40px;  
+  height: 40px;
 }
 
 .team-soc-link {
-  background-color: #4D5AE5; /* Синій колір фону */
-  border-radius: 50%;     /* Робимо коло */
-  width: 40px;  /* <--- ОБОВ'ЯЗКОВО додайте це */
-  height: 40px;
-  /* МАГІЯ: Центруємо іконку всередині круга */
+  background-color: #4D5AE5; 
+  border-radius: 50%;     
+  width: 100%; 
+  height: 100%;
+
   display: flex; 
   align-items: center;    /* Центр по вертикалі */
   justify-content: center; /* Центр по горизонталі */
@@ -311,15 +313,16 @@ a {
 .our-team-member {
   background-color: #FFFFFF;
   border-radius: 0 0 4px 4px;
-  box-shadow:rgba(46, 47, 66, 0.08), 
-             rgba(46, 47, 66, 0.16),
-             rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+              0px 1px 1px rgba(46, 47, 66, 0.16), 
+              0px 2px 1px rgba(46, 47, 66, 0.08);
   display: inline-flex;
   padding-bottom: 32px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
+
 }
 
 .our-portfolio {
