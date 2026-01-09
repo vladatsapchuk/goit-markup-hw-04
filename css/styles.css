@@ -497,5 +497,7 @@ margin: 0;
 
 .icons-footer {
   fill:#f4f4fd;
+  transform: scale(1.5); 
+  transform-origin: center;
 }
 
